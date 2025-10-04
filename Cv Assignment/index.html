@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- https://avatars.githubusercontent.com/u/182661518?v=4 -->
+</head>
+
+<body>
+
+    <img src="images/huzaifa.jpg" id="my_pic" alt="" style="display: none;">
+
+    <button onClick="showImage()" id="my_btn"
+        style="padding: 12px 20px; background-color: #588157; color: white; border-radius: 10px; border: 2px solid #344e41; margin-top: 10px;">
+        Show Image</button>
+
+    <!-- ---------------------------------------------------->
+
+    <p id="intro_para">Hi, my name is Huzaifa.
+        I am currently studying in Class 1st Year and learning Frontend Development at Saylani.
+        Right now, I am focusing on JavaScript and building my skills step by step to become a professional web
+        developer in the future.</p>
+
+    <button onclick="showMore()" id="para_btn"
+        style="padding: 12px 20px; background-color: #588157; color: white; border-radius: 10px; border: 2px solid #344e41; margin-top: 10px;">
+        Show More</button>
+
+    <!-- ---------------------------------------------------->
+
+    <h2 style="margin-bottom: 0;">Contact Me</h2>
+
+    <button onClick="showForm()" type="submit" id="form_btn"
+        style="margin: 10px; padding: 12px 20px; background-color: #588157; color: white; border-radius: 10px; border: 2px solid #344e41;">Show
+        Form</button>
+
+    <form id="form">
+        Name:
+        <input id="name" type="text" style="margin-right: 20px; margin-bottom: 20px;">
+
+        Email:
+        <input id="email" type="email">
+        <br>
+        Message:
+        <input id="msg" type="text" style="padding-bottom: 50px; margin-bottom: 20px;">
+        <br>
+        <input onClick="checkForm()" id="submit_btn" type="button" value="Submit"
+            style="padding: 12px 20px; background-color: #588157; color: white; border-radius: 10px; border: 2px solid #344e41;">
+    </form>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
